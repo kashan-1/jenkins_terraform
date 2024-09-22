@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout your code from version control
-                git credentialsId: 'kashan-1', url: 'https://github.com/kashan-1/tf_example.git'  // Replace with your repo URL
+                git credentialsId: 'dda07f7e-0b81-497f-986a-f6a884a5f6dc', url: 'https://github.com/kashan-1/tf_example.git'  // Replace with your repo URL
             }
         }
         
